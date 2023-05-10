@@ -15,7 +15,10 @@
         $numero_um = $_GET["primeironumero"];
         $antecessor = $numero_um - "1";
         $sucessor = $numero_um + "1";
-        echo "o antecessor de $numero_um é $antecessor e seu sucessor é $sucessor";
+        $numero_ramdomico = rand(0, $numero_um);
+        echo "o antecessor de $numero_um é $antecessor e seu sucessor é $sucessor<br/>
+        um número aleatório entre $numero_um e 0: $numero_ramdomico<br/>
+        ";
         ?>
     </main>
 </body>
