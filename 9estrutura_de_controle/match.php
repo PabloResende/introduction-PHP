@@ -15,4 +15,14 @@ echo match($comando) {
     default  => "não acontece nada"
 };
 
+$idade = 18;
+
+$resultado = match(true){
+    $idade >= 65 => 'idoso',
+    $idade >= 25 => 'jovem adulto',
+    $idade >= 15 => 'jovem',
+    default => 'criança',
+};
+echo "$resultado";
+
 ?>
