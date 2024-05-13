@@ -16,6 +16,5 @@
         echo "hello world! \u{1F30E}";//só funciona em aspas duplas
         ?>
     </h1>
-    <!-- <p>gay</p> -->
 
 </html>

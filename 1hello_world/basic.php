@@ -1,7 +1,8 @@
 <?php 
-$nome = 'Pablo';
+$nome = 'Pablo'; // Isso é uma variável em PHP
+// variáveis em PHP comecam pelo $, elas servem para armazenar valores
 $sobrenome = 'Carrilho';
-const PAIS = 'Brasil';
+const PAIS = 'Brasil'; // constantes em PHP servem para armazenar valores, mas a diferença entre uma variável e uma constante é que uma variável pode ser alterada, e uma constante não pode ser alterada.
 
 echo "Meu nome é, $nome $sobrenome! E eu moro no ", PAIS;
 echo "$nome \"Silva \"$sobrenome";
