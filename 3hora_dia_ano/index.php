@@ -12,8 +12,8 @@
    <h1>exemplo de php</h1>
    <?php 
     date_default_timezone_set("America/Sao_Paulo");
-    echo "hoje é ". date("d:m:Y"); //D maiúsculo para dia da 
-    //semana e minúsculo para dia mês, quase o mesmo vale para 'm' e 'y'
+    echo "hoje é ". date("d:m:Y");
+     //D maiúsculo para dia da semana e minúsculo para dia mês, quase o mesmo vale para 'm' e 'y'
     echo "e a hora é ". date("g:i:s");//GMT-3 é o código da 
     //'TimeZone' do Brasil, para checar isso usa se o T separado na hora
    ?>

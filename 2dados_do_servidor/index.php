@@ -11,7 +11,7 @@
 <body>
     <h1>dados do servidor</h1>
     <?php //abrir o php
-    phpinfo()
+    phpinfo() // serve para ver todas as informações sobre o servidor
     ?>
 </body>
 </html>

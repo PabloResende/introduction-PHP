@@ -19,9 +19,13 @@
         //deixar em negrito, e é importante fechar o 'strong' para
         //que outras coisas também não fiquem em negrito
 
-        // $_REQUEST é uma junção de $_GET ,$_POST e $_COOKIES
+        // $_REQUEST é uma junção de $_GET, $_POST e $_COOKIES
         // var_dump($_REQUEST)//isso é uma variável super global que
         // já vêm declarada
+
+        // isset() verifica se uma variável existe
+        
+        // ?? e o operador de coalescência nula, serve para retornar o valor da variável antes do sinal de ?? caso o valor exista e não seja NULL ou retorna o valor através do sinal de ??
         ?>
         <p><a href="javascript:history.go(-1)">voltar a página anterior</a></p>
     </main>
