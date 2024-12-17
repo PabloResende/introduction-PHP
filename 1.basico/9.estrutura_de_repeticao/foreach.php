@@ -3,14 +3,7 @@
 <?php
 
 
-$nomes = [
-    'Pablo', 
-    'joão',
-    'maria',
-    'pedro',
-    'jose',
-    'marcos',
-    'lucia',];
+$nomes = ['Pablo', 'joão', 'maria', 'pedro', 'jose', 'marcos', 'lucia'];
 
 foreach($nomes as $nome) {
 
