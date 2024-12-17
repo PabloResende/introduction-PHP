@@ -26,4 +26,32 @@ switch($comando){
     echo 'nada acontece';
     break;
 }
-?>
+
+
+$idade = 18;
+
+switch($idade){
+    case $idade < 18: 
+        echo 'menor de idade';
+        break;
+    case $idade > 18:
+        echo 'maior de idade';
+        break;
+    default:
+        echo 'idade desconhecida';
+        break;
+} 
+
+$indice = 0;
+
+switch($indice){
+    case 0:
+        echo 'indice é igual a zero';
+        break;
+    case 1:
+        echo 'indice é igual a um';
+        break;  
+    default:
+        echo 'indice desconhecido';
+        break;
+} // o número que vêm após o case é o que está sendo comparado ao valor da variável, ou seja, está perguntando se a variável $indice é igual a 0, 1, 2, etc. Quando o switch enconro o valor correspondente ele para de executar e executa o que vem depois do break, caso não encontre nada ele executa o default.

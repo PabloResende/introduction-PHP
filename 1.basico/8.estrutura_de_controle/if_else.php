@@ -10,9 +10,9 @@
         echo 'menor de idade';
     }
     
-    $estouoLogado = True;
+    $estouLogado = True;
 
-    if( $estouoLogado) {
+    if( $estouLogado) {
         echo 'estou logado';
     } else {
         echo 'não estou logado';
