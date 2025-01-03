@@ -1,6 +1,4 @@
-<!-- Uma closure em PHP é uma função dentro de outra função que pode acessar e "lembrar" as variáveis do escopo onde foi criada, mesmo que seja executada em um escopo diferente (ou seja, depois de a função externa já ter terminado sua execução). Em outras palavras, uma closure é uma função que pode capturar o contexto no qual foi criada e usá-lo posteriormente.
-
-Como as Closures Funcionam?
+<!-- Como as Closures Funcionam?
 As closures são funções anônimas que podem acessar variáveis fora do seu próprio escopo (no escopo da função onde foram definidas). Isso é possível graças ao conceito de "binding" (vinculação) das variáveis, ou seja, a closure "lembra" dos valores das variáveis do contexto externo no momento em que foi criada, mesmo que a execução da função externa tenha terminado. -->
 
 <!-- Vamos ver um exemplo simples para ilustrar como uma closure funciona em PHP: -->

@@ -31,29 +31,29 @@ function fatorial($n) {
 // Chamada Recursiva: A função retorna o valor de 𝑛 multiplicado pelo fatorial de n−1. Ou seja, ela chama a si mesma com um valor menor até que o caso base seja atingido.
 
 // Vamos ver o que acontece quando chamamos fatorial(5):
-fatorial(5): Não é o caso base, então a função faz a chamada recursiva 5 * fatorial(4).
-fatorial(4): Novamente, não é o caso base, então a função faz 4 * fatorial(3).
-fatorial(3): A chamada é 3 * fatorial(2).
-fatorial(2): A chamada é 2 * fatorial(1).
-fatorial(1): Aqui a função atinge o caso base e retorna 1.
+// fatorial(5): Não é o caso base, então a função faz a chamada recursiva 5 * fatorial(4).
+// fatorial(4): Novamente, não é o caso base, então a função faz 4 * fatorial(3).
+// fatorial(3): A chamada é 3 * fatorial(2).
+// fatorial(2): A chamada é 2 * fatorial(1).
+// fatorial(1): Aqui a função atinge o caso base e retorna 1.
 
 // Agora, o processo começa a "desempilhar" as chamadas recursivas:
 
-fatorial(2): Retorna 2 * 1 = 2.
-fatorial(3): Retorna 3 * 2 = 6.
-fatorial(4): Retorna 4 * 6 = 24.
-fatorial(5): Retorna 5 * 24 = 120.
-Portanto, fatorial(5) retorna 120.
+// fatorial(2): Retorna 2 * 1 = 2.
+// fatorial(3): Retorna 3 * 2 = 6.
+// fatorial(4): Retorna 4 * 6 = 24.
+// fatorial(5): Retorna 5 * 24 = 120.
+// Portanto, fatorial(5) retorna 120.
 
 // Recursividade e a Pilha de Execução
 // Quando uma função é chamada, o sistema precisa manter um registro da execução dessa função na pilha de chamadas. Com recursividade, a pilha de chamadas cresce conforme as chamadas vão sendo feitas.
 
 // Por exemplo, ao chamar fatorial(5), a pilha de execução ficaria assim:
-fatorial(5)
-  fatorial(4)
-    fatorial(3)
-      fatorial(2)
-        fatorial(1)  // Caso base alcançado, começa a retornar
+// fatorial(5)
+//   fatorial(4)
+//     fatorial(3)
+//       fatorial(2)
+//         fatorial(1)  // Caso base alcançado, começa a retornar
 // Cada chamada precisa esperar o resultado da próxima antes de poder continuar, e à medida que o caso base é alcançado, as chamadas vão retornando e a pilha vai "desempilhando".
 
 // Exemplos Comuns de Recursividade:
