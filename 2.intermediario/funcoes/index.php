@@ -51,3 +51,5 @@ function fatorial($n) {
 }
 
 fatorial(5);  // Retorna 120 (5 * 4 * 3 * 2 * 1)
+
+
