@@ -4,9 +4,9 @@
 
     $arr = [
         'nome' => 'Pablo',
-        'sobrenome' => 'Carrilho'
-        'idade' => 22;
-    ]
+        'sobrenome' => 'Carrilho',
+        'idade' => 22
+    ];
     
     echo $arr['nome'];
     echo $arr['sobrenome'];

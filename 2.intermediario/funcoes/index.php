@@ -37,7 +37,7 @@ $funcao(1, 2);
 function soma3($a, $b) {
     return function ($a, $b) {
         return $a + $b;
-    }($a, $b);
+    };
 }
 soma3(1, 2);
 
