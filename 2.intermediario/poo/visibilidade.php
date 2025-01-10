@@ -9,7 +9,7 @@
 class Car {
     public $rodas = 4;
     private $vidro = "sem película";
-    protected $portas = 4; // não pode ser acessado nem por herança
+    protected $portas = 4;
 
     public function getVidro() {
         return $this->vidro;
